@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hunter.bluelight.choiceActivity"
+    android:background="@null">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addFriendbtn"
+        android:background="@null"
+        android:src="@drawable/addfriendswhite"
+        android:layout_above="@+id/dropSharebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WWFbtn"
+        android:background="@null"
+        android:src="@drawable/walkwithfriend"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SafeRidebtn"
+        android:background="@null"
+        android:src="@drawable/saferide"
+        android:layout_above="@+id/addFriendbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dropSharebtn"
+        android:background="@null"
+
+        android:src="@drawable/compassicon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Walk With Friend"
+        android:id="@+id/etWWF"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/WWFbtn"
+        android:layout_toEndOf="@+id/WWFbtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Safe Ride"
+        android:id="@+id/etSafeRide"
+        android:layout_alignTop="@+id/SafeRidebtn"
+        android:layout_toRightOf="@+id/SafeRidebtn"
+        android:layout_toEndOf="@+id/SafeRidebtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Add Trusted Friend"
+        android:id="@+id/etAddFriend"
+        android:layout_alignTop="@+id/addFriendbtn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Drop A Pin/Share Location"
+        android:id="@+id/etShareLocation"
+        android:layout_alignTop="@+id/dropSharebtn"
+        android:layout_toRightOf="@+id/dropSharebtn"
+        android:layout_toEndOf="@+id/dropSharebtn" />
+
+</RelativeLayout>
