@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bluelight</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="friend_drop">
+        <item>Bryce</item>
+        <item>Ellie</item>
+        <item>Hunter</item>
+        <item>Tyler</item>
+    </string-array>
+</resources>
